@@ -1,5 +1,8 @@
 name: run unittest
-on: [push]
+on:
+  push:
+    paths:
+      - src/**/*.ts
 jobs:
   run-unittest:
     runs-on: ubuntu-latest
