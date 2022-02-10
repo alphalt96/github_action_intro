@@ -1,8 +1,9 @@
 name: run unittest
 on:
+  push:
+    branches: [ master ]
   pull_request:
-    branches:
-      - master
+    branches: [ master ]
 jobs:
   run-unittest:
     runs-on: ubuntu-latest
