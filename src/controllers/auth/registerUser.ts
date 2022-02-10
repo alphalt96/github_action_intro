@@ -8,6 +8,6 @@ export async function registerUser(request: Request, response: Response) {
     console.log('Service response', serviceResponse)
 
     return response.status(200).json({
-        message: "success2"
+        message: "success"
     })
 }
