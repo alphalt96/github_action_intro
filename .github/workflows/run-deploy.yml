@@ -1,6 +1,5 @@
 name: learn-github-actions
 on:
-  workflow_dispatch:
   schedule:
     - cron: "*/5 * * * *"
 jobs:
