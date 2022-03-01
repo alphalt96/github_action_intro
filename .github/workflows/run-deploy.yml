@@ -1,7 +1,7 @@
 name: learn-github-actions
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "5 * * * *"
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
